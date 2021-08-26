@@ -12,7 +12,7 @@ model = dict(
 )
 
 dataset_type = 'COCODataset'
-CLASSES = ('cmnd')
+CLASSES = ('cmnd',)
 data = dict(
     train=dict(
         img_prefix='/content/coco_cmnd/train2017/',
